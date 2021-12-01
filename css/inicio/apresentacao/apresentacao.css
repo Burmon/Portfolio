@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400&display=swap');
+
+
+.apresentacao__container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 4rem;
+       
+}
+.container__responsivo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+   
+}
+.apresentacao__imagem img{
+    height: 20rem ;
+    width: 20rem;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.apresentacao__titulo{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.apresentacao__titulo h1{
+    text-align: center;
+    font-weight: 200;
+    font-size: 2rem;
+    text-shadow: -3px -3px 6px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+   
+}
+
+.apresentacao__titulo h2{
+    margin-top: .5rem;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: .8rem;
+    font-weight: 100;
+}
+
+
+/*---------texto__apresentacao--------*/
+
+.apresentacao__texto {
+  
+    margin-top: 2rem;
+    padding: 2rem 1rem; 
+    width: 65%;
+    background-color: #dde1e7;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+    border-radius: 25px;
+ 
+}
+
+.apresentacao__texto p {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    text-align: justify;
+    font-size: .9rem;
+    
+}
+
+/*-----------icones------------*/
+
+.apresentacao__icones button{
+    border: none;
+    background-color: #dde1e7;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+    border-radius: 10px;
+    margin: 2rem 1rem;
+   
+   
+}
+
+.apresentacao__icones svg {
+   
+    transition: color .4s;
+    margin: .5rem .5rem;
+}
+
+.apresentacao__icones button:hover{
+    box-shadow: inset -1px -1px 3px #ffffff73, inset 5px 5px 7px rgba(94, 104, 121, .288);
+}
+
+
+#botao__linkedin:hover{
+    color: #0E76A8;
+    
+}
+
+#botao__instagram:hover{
+   color:#c13584;
+}
+
+
+
+/*-------------RESPONSIVIDADE-------------*/
+
+@media (min-width: 1024px) {
+
+    
+
+    .apresentacao__container{
+        display:inline-block;
+        margin-top: 5rem;
+       
+    }
+
+    .container__responsivo{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4%;
+    }
+    
+    
+    
+    .apresentacao__titulo h1{
+        font-size: 5rem;
+        font-weight: 100;
+        color: #333333;
+        
+    }
+
+    .apresentacao__titulo h2 {
+       
+        margin-top: .5rem;
+        text-align: center;
+        letter-spacing: 10px;
+        font-size: 2rem;
+        font-weight: 100;
+        color: #555555;
+        
+    }
+
+    .apresentacao__texto{
+        width: 40%;
+        height: 40%;
+
+    }
+
+    .apresentacao__texto p {
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+    
+
+    
+    
+    
+    
+}
+
+

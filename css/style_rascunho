@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #dde1e7;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Verdana';
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #5044ee;
+    text-shadow: -3px -3px 6px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+}
+
+.neumorfismo-1{
+    height: 150px;
+    width: 150px;
+    background-color: #dde1e7;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+    border-radius: 25px;
+    
+}
+
+
+.neumorfismo-2{
+    margin: 50px;
+    height: 150px;
+    width: 150px;
+    background-color: #dde1e7;
+    box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
+    border-radius: 25px;
+}
+
+
+.neumorfismo-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 150px;
+    width: 150px;
+    background-color: #dde1e7;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+    border-radius:50%;
+    position: relative;
+}
+
+.neumorfismo-3:after{
+    content: '';
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
+}
+
+input[type = "checkbox"]{
+    height: 150px;
+    width: 150px;
+    margin: 50px;
+    -webkit-appearance: none;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5), 10px 10px 15px rgba(70, 70, 70, 0.12);
+    border-radius: 50%;
+    outline: none;
+
+
+}
+input[type = "checkbox"]:checked{
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5), 10px 10px 15px rgba(70, 70, 70, 0.12),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+   
+
+}
+
+input[type = "checkbox"]:checked :after{
+    background: #000000;
+}

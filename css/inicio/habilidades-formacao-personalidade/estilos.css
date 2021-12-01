@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400&display=swap');
+
+.hf__container{
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    margin-top: 4rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+
+
+}
+
+.habilidades h1{
+  padding-top: 10px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 2rem;
+  text-shadow: -3px -3px 6px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+  letter-spacing: 5px;
+}
+
+
+.habilidades{
+  margin-top: 2rem;
+  padding: .5rem;
+  width: 80%;
+  background-color: #dde1e7;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+  border-radius: 25px;
+  
+
+}
+.habilidades__icones{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  padding-bottom: 3rem;
+}
+.habilidades__icones img{
+  margin-top: 2rem;
+  width: 40%;
+
+}
+
+
+
+/*------------- F O R M A Ç Ã O -------------*/
+
+.formacao{
+  margin-top: 5rem;
+  padding: .5rem;
+  width: 80%;
+  background-color: #dde1e7;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+  border-radius: 25px;
+  text-align: center;
+    
+}
+
+.formacao h1{
+  text-align: center;
+  font-weight: 300;
+  font-size: 2rem;
+  text-shadow: -3px -3px 6px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+  letter-spacing: 5px;
+  margin-bottom: 3rem;
+  padding-top: 1rem;
+}
+#nave{
+  width: 60%;
+  margin-bottom: .3rem;
+}
+#unicap{
+  width: 40%;
+  margin-top: 2rem;
+}
+
+#alura{
+  width: 40%;
+  margin-top: 2rem;
+  margin-bottom: .3rem;
+
+}
+
+.formacao__icones h2{
+  font-weight: 200;
+  font-size: 1rem;
+  text-shadow: -3px -3px 6px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+}
+
+/*------------------  P E R S O N A L I D A D E -------------------*/
+
+.personalidade__container{
+ 
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  margin-top: 5rem;
+  padding: .5rem;
+  width: 80%;
+  background-color: #dde1e7;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+  border-radius: 25px;
+}
+
+.personalidade__container img{
+  width: 80vw;
+  margin-top: 4rem;
+}
+
+.personalidade_textos{
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+.personalidade_textos h1{
+  margin-top: 1rem;
+}
+.personalidade_textos h1, h2{
+
+  font-weight: 200;
+}
+
+.personalidade_textos p{
+  text-align: justify;
+  font-weight: 400;
+
+  margin: 1rem ;
+}
+
+.rodape{
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-weight: 200;
+  font-size: 1rem;
+  text-shadow: -3px -3px 6px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  text-align: center;
+}
+.rodape a{
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+/*---------------------- R E S P O N S I V I D A D E -----------------------*/
+
+@media (min-width: 1024px){
+
+ .hf__container{
+   display: grid;
+   width: 80%;
+   grid-template-columns: 1fr 1fr ;
+   
+ }
+
+ .habilidades{
+   margin-bottom: 58%;
+   align-items: center;
+   margin-left: 4rem;
+ 
+ }
+.habilidades__icones{
+  
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.personalidade__container{
+  width: 50%;
+}
+
+.personalidade__container img{
+  width: 100%;
+}
+
+
+}

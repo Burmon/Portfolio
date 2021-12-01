@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.principal{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.projeto__titulo{
+    text-align: center;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    margin-top: 2rem;
+    font-size: 4rem;
+    color: #3e3e3e;
+
+    font-weight: 300;
+    text-shadow: -3px -3px 6px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+    letter-spacing: 5px;
+
+}
+
+.cartao__dino{
+    width: 100%;
+    margin-top: 6rem;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+    padding-bottom: 1rem;
+    
+}
+
+
+.cartao__imagem{
+    width: 100%;
+   
+}
+.cartao__dino h2{
+    padding-top: 1rem;
+    text-align: center;
+    font-weight: 300 ;
+    
+
+}
+
+@media (min-width: 1024px){
+    .principal{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
